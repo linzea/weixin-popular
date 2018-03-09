@@ -9,6 +9,18 @@ public class Getwxacodeunlimit {
 	private Boolean auto_color;
 	
 	private LineColor line_color;
+	
+	private String page;
+
+	public Getwxacodeunlimit() {
+	}
+
+	public Getwxacodeunlimit(String scene, Integer width, Boolean auto_color, LineColor line_color) {
+		this.scene = scene;
+		this.width = width;
+		this.auto_color = auto_color;
+		this.line_color = line_color;
+	}
 
 	public String getScene() {
 		return scene;
@@ -41,6 +53,13 @@ public class Getwxacodeunlimit {
 	public void setLine_color(LineColor line_color) {
 		this.line_color = line_color;
 	}
-	
+
+	public String getPage() {
+		return page;
+	}
+
+	public void setPage(String page) {
+		this.page = page;
+	}
 	
 }
